@@ -1,0 +1,405 @@
+object Form1: TForm1
+  Left = 316
+  Height = 647
+  Top = 154
+  Width = 665
+  Caption = 'Form1'
+  ClientHeight = 647
+  ClientWidth = 665
+  Color = 8313012
+  DesignTimePPI = 120
+  LCLVersion = '3.4.0.0'
+  object Label1: TLabel
+    Left = 48
+    Height = 20
+    Top = 72
+    Width = 47
+    Caption = 'Janeiro'
+  end
+  object Label2: TLabel
+    Left = 34
+    Height = 20
+    Top = 112
+    Width = 61
+    Caption = 'Fevereiro'
+  end
+  object Label3: TLabel
+    Left = 53
+    Height = 20
+    Top = 152
+    Width = 42
+    Caption = 'Março'
+  end
+  object Label4: TLabel
+    Left = 63
+    Height = 20
+    Top = 192
+    Width = 32
+    Caption = 'Abril'
+  end
+  object Label5: TLabel
+    Left = 61
+    Height = 20
+    Top = 232
+    Width = 34
+    Caption = 'Maio'
+  end
+  object Label6: TLabel
+    Left = 57
+    Height = 20
+    Top = 272
+    Width = 38
+    Caption = 'Junho'
+  end
+  object Label7: TLabel
+    Left = 61
+    Height = 20
+    Top = 312
+    Width = 34
+    Caption = 'Julho'
+  end
+  object Label8: TLabel
+    Left = 47
+    Height = 20
+    Top = 352
+    Width = 48
+    Caption = 'Agosto'
+  end
+  object Label9: TLabel
+    Left = 30
+    Height = 20
+    Top = 392
+    Width = 65
+    Caption = 'Setembro'
+  end
+  object Label10: TLabel
+    Left = 40
+    Height = 20
+    Top = 432
+    Width = 55
+    Caption = 'Outubro'
+  end
+  object Label11: TLabel
+    Left = 24
+    Height = 20
+    Top = 472
+    Width = 71
+    Caption = 'Novembro'
+  end
+  object Label12: TLabel
+    Left = 25
+    Height = 20
+    Top = 512
+    Width = 70
+    Caption = 'Dezembro'
+  end
+  object edtSalarioBrutoJan: TEdit
+    Left = 112
+    Height = 28
+    Top = 64
+    Width = 100
+    TabOrder = 0
+  end
+  object edtSalarioBrutoFev: TEdit
+    Left = 112
+    Height = 28
+    Top = 104
+    Width = 100
+    TabOrder = 1
+  end
+  object edtSalarioBrutoMar: TEdit
+    Left = 112
+    Height = 28
+    Top = 144
+    Width = 100
+    TabOrder = 2
+  end
+  object edtSalarioBrutoAbr: TEdit
+    Left = 112
+    Height = 28
+    Top = 184
+    Width = 100
+    TabOrder = 3
+  end
+  object edtSalarioBrutoMai: TEdit
+    Left = 112
+    Height = 28
+    Top = 224
+    Width = 100
+    TabOrder = 4
+  end
+  object edtSalarioBrutoJun: TEdit
+    Left = 112
+    Height = 28
+    Top = 264
+    Width = 100
+    TabOrder = 5
+  end
+  object edtSalarioBrutoJul: TEdit
+    Left = 112
+    Height = 28
+    Top = 302
+    Width = 100
+    TabOrder = 6
+  end
+  object edtSalarioBrutoAgo: TEdit
+    Left = 112
+    Height = 28
+    Top = 344
+    Width = 100
+    TabOrder = 7
+  end
+  object edtSalarioBrutoSet: TEdit
+    Left = 112
+    Height = 28
+    Top = 384
+    Width = 100
+    TabOrder = 8
+  end
+  object edtSalarioBrutoOut: TEdit
+    Left = 112
+    Height = 28
+    Top = 424
+    Width = 100
+    TabOrder = 9
+  end
+  object edtSalarioBrutoNov: TEdit
+    Left = 112
+    Height = 28
+    Top = 464
+    Width = 100
+    TabOrder = 10
+  end
+  object edtSalarioBrutoDez: TEdit
+    Left = 112
+    Height = 28
+    Top = 504
+    Width = 100
+    TabOrder = 11
+  end
+  object edtDescontoJan: TEdit
+    Left = 248
+    Height = 28
+    Top = 64
+    Width = 100
+    TabOrder = 12
+  end
+  object edtSalarioLiqJan: TEdit
+    Left = 384
+    Height = 28
+    Top = 64
+    Width = 100
+    TabOrder = 13
+  end
+  object Label13: TLabel
+    Left = 112
+    Height = 20
+    Top = 29
+    Width = 86
+    Caption = 'Salario Bruto'
+  end
+  object Label14: TLabel
+    Left = 248
+    Height = 20
+    Top = 29
+    Width = 79
+    Caption = 'Desconto %'
+  end
+  object Label15: TLabel
+    Left = 384
+    Height = 20
+    Top = 29
+    Width = 100
+    Caption = 'Salario Liquido'
+  end
+  object edtDescontoFev: TEdit
+    Left = 248
+    Height = 28
+    Top = 104
+    Width = 100
+    TabOrder = 14
+  end
+  object edtDescontoMar: TEdit
+    Left = 248
+    Height = 28
+    Top = 144
+    Width = 100
+    TabOrder = 15
+  end
+  object edtDescontoAbr: TEdit
+    Left = 248
+    Height = 28
+    Top = 184
+    Width = 100
+    TabOrder = 16
+  end
+  object edtDescontoMai: TEdit
+    Left = 248
+    Height = 28
+    Top = 224
+    Width = 100
+    TabOrder = 17
+  end
+  object edtDescontoJun: TEdit
+    Left = 248
+    Height = 28
+    Top = 264
+    Width = 100
+    TabOrder = 18
+  end
+  object edtDescontoJul: TEdit
+    Left = 248
+    Height = 28
+    Top = 302
+    Width = 100
+    TabOrder = 19
+  end
+  object edtDescontoAgo: TEdit
+    Left = 248
+    Height = 28
+    Top = 344
+    Width = 100
+    TabOrder = 20
+  end
+  object edtDescontoSet: TEdit
+    Left = 248
+    Height = 28
+    Top = 384
+    Width = 100
+    TabOrder = 21
+  end
+  object edtDescontoOut: TEdit
+    Left = 248
+    Height = 28
+    Top = 424
+    Width = 100
+    TabOrder = 22
+  end
+  object edtDescontoNov: TEdit
+    Left = 248
+    Height = 28
+    Top = 464
+    Width = 100
+    TabOrder = 23
+  end
+  object edtDescontoDez: TEdit
+    Left = 248
+    Height = 28
+    Top = 504
+    Width = 100
+    TabOrder = 24
+  end
+  object edtSalarioLiqFev: TEdit
+    Left = 384
+    Height = 28
+    Top = 104
+    Width = 100
+    TabOrder = 25
+  end
+  object edtSalarioLiqMar: TEdit
+    Left = 384
+    Height = 28
+    Top = 144
+    Width = 100
+    TabOrder = 26
+  end
+  object edtSalarioLiqAbr: TEdit
+    Left = 384
+    Height = 28
+    Top = 184
+    Width = 100
+    TabOrder = 27
+  end
+  object edtSalarioLiqMai: TEdit
+    Left = 384
+    Height = 28
+    Top = 224
+    Width = 100
+    TabOrder = 28
+  end
+  object edtSalarioLiqJun: TEdit
+    Left = 384
+    Height = 28
+    Top = 264
+    Width = 100
+    TabOrder = 29
+  end
+  object edtSalarioLiqjul: TEdit
+    Left = 384
+    Height = 28
+    Top = 302
+    Width = 100
+    TabOrder = 30
+  end
+  object edtSalarioLiqAgo: TEdit
+    Left = 384
+    Height = 28
+    Top = 344
+    Width = 100
+    TabOrder = 31
+  end
+  object edtSalarioLiqSet: TEdit
+    Left = 384
+    Height = 28
+    Top = 384
+    Width = 100
+    TabOrder = 32
+  end
+  object edtSalarioLiqOut: TEdit
+    Left = 384
+    Height = 28
+    Top = 424
+    Width = 100
+    TabOrder = 33
+  end
+  object edtSalarioLiqNov: TEdit
+    Left = 384
+    Height = 28
+    Top = 464
+    Width = 100
+    TabOrder = 34
+  end
+  object edtSalarioLiqDez: TEdit
+    Left = 384
+    Height = 28
+    Top = 504
+    Width = 100
+    TabOrder = 35
+  end
+  object edtSomaTotalSalarioBruto: TEdit
+    Left = 112
+    Height = 28
+    Top = 568
+    Width = 100
+    TabOrder = 36
+  end
+  object edtSomaTotalDesconto: TEdit
+    Left = 248
+    Height = 28
+    Top = 568
+    Width = 100
+    TabOrder = 37
+  end
+  object edtSomaTotalSalarioLiquido: TEdit
+    Left = 384
+    Height = 28
+    Top = 568
+    Width = 100
+    TabOrder = 38
+  end
+  object Label16: TLabel
+    Left = 24
+    Height = 20
+    Top = 576
+    Width = 82
+    Caption = 'Soma Total :'
+  end
+  object btnCalcular: TButton
+    Left = 519
+    Height = 31
+    Top = 565
+    Width = 94
+    Caption = 'CALCULAR'
+    TabOrder = 39
+  end
+end
